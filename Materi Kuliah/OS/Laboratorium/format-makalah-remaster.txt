@@ -1,0 +1,47 @@
+Tugas Membuat Makalah Rancangan REMASTER
+- Sifat : individu
+- Waktu s.d Sabtu tgl 19des jam 23:59
+- Bentuk : .odt
+- Email : osd3ti2015@gmail.com
+.... Subjek/nama file : Kelas-Nim-Nama-Remaster-Nama distro
+
+
+************
+
+Isi :
+- Halaman Judul
+- Kata Pengantar
+- Daftar Isi
+
+Bab 1
+- Latar belakang
+....Opensource
+....Linux
+....Distro
+....Kenapa Perlu Membuat Distro?
+
+
+Bab 2
+- Pengertian Remaster
+- Remaster Online (step-stepnya)
+....Slax
+....Susestudio
+....Instalinux
+....Livebuild
+....Porteus
+
+- Remaster Offline
+....pilih yang bisa, misal : Remastersys
+
+
+Bab 3
+- Rancangan/Usulan Remaster
+....Logo distro
+....Nama Distro
+....Tema deskripsi Distro
+....Tujuan & kegunaan Distro
+....Software yang ada didalamnya
+....Desain (boot screen, login screen, desktop display)
+
+Bab 4
+- Kesimpulan

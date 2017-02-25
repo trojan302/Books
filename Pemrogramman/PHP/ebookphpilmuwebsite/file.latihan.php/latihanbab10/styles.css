@@ -1,0 +1,448 @@
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	height: auto;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 0;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+
+blockquote, q {
+	quotes: none;
+}
+
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	height: 1px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+
+
+del {
+	text-decoration: line-through;
+}
+
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+ol, ul {
+	list-style: none;
+}
+
+
+/* RESET */
+body{
+font-family: "Arial";
+background: #045FB4;
+}
+
+table{
+margin-top: 20px;
+font-size: 12px;
+}
+
+table tr td 
+{
+padding-bottom:2px;
+padding-top:2px;
+}
+
+br
+{
+margin:16px;
+}
+
+#wrap
+{
+margin: 20px auto;
+width:900px;
+background: #fff;
+border: 4px solid #fff;
+margin-bottom:20px;
+}
+
+#header
+{
+width:auto;
+height:150px;
+border-bottom:18px solid #E0F8EC;
+margin-bottom:50px;
+background: url("./images/header.jpg") top no-repeat #046FF4;
+}
+
+#headeradmin
+{
+width:auto;
+height:25px;
+background: #084B8A;
+padding-top:5px;
+padding-right: 15px;
+text-align:right;
+color: #fff;
+font-size: 13px;
+}
+
+#headeradmin a
+{
+text-decoration: none;
+color: #fff;
+}
+
+#headeradmin a:hover
+{
+color:#DFDFDF;
+}
+
+
+#menuadmin {
+width: 100%;
+float: left;
+margin-top:4px;
+background:  #E0F8EC;
+margin-bottom:10px;
+}
+
+#menuadmin ul {
+list-style: none;
+margin: 0;
+padding: 0;
+width: 130px;
+float: left;
+}
+
+#menuadmin a, #menuadmin h2 {
+font: 12px/16px arial, helvetica, sans-serif;
+display: block;
+margin: 0;
+padding: 2px 3px;
+}
+
+#menuadmin h2 {
+font-weight:bold;
+padding-left:20px;
+color: #111;
+background:  #E0F8EC;
+padding-top:12px;
+padding-bottom: 12px;
+border-bottom:1px solid #EFFBF5;
+}
+
+
+#menuadmin h2:hover{
+background: #EFFBF5;
+}
+
+
+#menuadmin a {
+color: #000;
+background: #E0F8EC;
+text-decoration: none;
+padding-left:20px;
+padding-top:8px;
+padding-bottom: 8px;
+border-bottom:1px solid #EFFBF5;
+border-right:1px solid #EFFBF5;
+border-left:1px solid #EFFBF5;
+}
+
+#menuadmin a:hover {
+color: #111;
+background: #EFFBF5;
+}
+
+#menuadmin li {position: relative;}
+
+#menuadmin ul ul {
+position: absolute;
+z-index: 500;
+}
+
+#menuadmin ul ul ul {
+position: absolute;
+top: 0;
+left: 100%;
+}
+
+#menuadmin ul
+{
+
+}
+
+div#menuadmin ul ul {
+display: none;
+}
+
+div#menuadmin ul ul,
+div#menuadmin ul li:hover ul ul
+{display: none;background: #EFFBF5;}
+
+div#menuadmin ul li:hover ul,
+div#menuadmin ul ul li:hover ul
+{display: block;background: #EFFBF5;}
+
+
+
+#menu
+{
+font-size:13px;
+float:right;
+width:280px;
+padding-left:20px;
+}
+
+#menu ul li
+{
+list-style-type: none;
+padding-bottom:10px;
+
+}
+
+#menu a
+{
+color:#0B3861;
+text-decoration: none;
+}
+
+#menu a:hover
+{
+color:#A9D0F5;
+text-decoration: none;
+}
+
+#content 
+{
+width:545px;
+border-right:1px dotted #0B3861;
+padding-right:30px;
+padding-left:20px;
+}
+
+#inside
+{
+padding-left: 10px;
+padding-bottom:20px;
+}
+
+#content small.tanggal
+{
+display:block;
+font-size:12px;
+margin-bottom: 10px;
+}
+
+small
+{
+display:block;
+font-size:12px;
+margin-bottom: 10px;
+}
+
+#content p
+{
+font-size: 13px;
+line-height:20px;
+}
+
+#loginbox
+{
+width:270px;
+height:auto;
+margin :200px auto;
+background:#084B8A;
+padding:20px;
+border:1px solid #fff;
+color:#fff;
+}
+
+#loginbox p
+{
+font-size:12px;
+margin-top:12px;
+}
+
+#loginbox input
+{
+border:1px solid #fff;
+}
+
+
+#footer 
+{
+margin-top:20px;
+width:auto;
+color: #fff;
+font-size:12px;
+text-align: center;
+padding-top:13px;
+height:27px;
+background:#333;
+}
+
+.komentar 
+{
+width: auto;
+height:auto;
+border-bottom: 1px dotted #999999;
+margin-bottom:20px;
+padding-bottom:20px;
+}
+
+div.artikel a
+{
+text-decoration: none;
+color: #045FB4;
+}
+
+div.artikel a:hover
+{
+color: #81BEF7;
+}
+
+h1.judul 
+{
+width:99%;
+font-size: 18px;
+font-weight:normal;
+padding-bottom:10px;
+margin-bottom:10px;
+border-bottom: 1px dotted #0B3861;
+}
+
+div.artikel
+{
+width:500px;
+margin-bottom: 20px; 
+padding-right:20px;
+padding-bottom: 20px;
+}
+
+.clearfloat { 
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+
+.redalert {
+	color: red;
+	font-weight: bold;
+}
+
+
+
+
+h2.judulberita
+{
+font-size:20px;
+font-weight:normal;
+}
+
+
+p.judul
+{
+font-size: 13px;
+margin-top: 60px;
+margin-bottom: 6px;
+}
+
+p.penulis
+{
+font-size: 13px;
+margin-top: 10px;
+margin-bottom: 6px;
+}
+
+textarea
+{
+width:auto;
+}
+
+p.isiberita
+{
+font-size: 13px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+input
+{
+margin-top:8px;
+margin-right:10px;
+}
+
+table.beritalist
+{
+width:99%;
+border: 1px solid #DFDFDF;
+padding:10px 10px 10px 10px;;
+}
+
+.daftarberita 
+{
+width:99%;
+
+
+}
+
+.daftarberita td
+{
+padding: 10px;
+text-align: center;
+
+}
+
+.daftarberita tr
+{
+border-bottom: 1px dotted #DFDFDF;
+}
+
+
+.daftarberita th
+{
+background:#dfdfdf;
+padding: 10px;
+background: #E0F8EC;
+text-align: center;
+}

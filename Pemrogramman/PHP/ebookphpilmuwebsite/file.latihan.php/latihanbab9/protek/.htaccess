@@ -1,0 +1,4 @@
+AuthName "Protected Area"
+AuthType Basic
+AuthUserFile C:/xampp/htdocs/file.latihan.vid.tutor.php/latihanbab9/protek/.htpasswd
+require valid-user
